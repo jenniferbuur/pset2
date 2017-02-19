@@ -12,6 +12,13 @@
 		D24657221E59D5DA00D17801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24657201E59D5DA00D17801 /* Main.storyboard */; };
 		D24657241E59D5DA00D17801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D24657231E59D5DA00D17801 /* Assets.xcassets */; };
 		D24657271E59D5DA00D17801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24657251E59D5DA00D17801 /* LaunchScreen.storyboard */; };
+		D24657351E59D6C000D17801 /* madlib0_simple.txt in Resources */ = {isa = PBXBuildFile; fileRef = D246572E1E59D6C000D17801 /* madlib0_simple.txt */; };
+		D24657361E59D6C000D17801 /* madlib1_tarzan.txt in Resources */ = {isa = PBXBuildFile; fileRef = D246572F1E59D6C000D17801 /* madlib1_tarzan.txt */; };
+		D24657371E59D6C000D17801 /* madlib2_university.txt in Resources */ = {isa = PBXBuildFile; fileRef = D24657301E59D6C000D17801 /* madlib2_university.txt */; };
+		D24657381E59D6C000D17801 /* madlib3_clothes.txt in Resources */ = {isa = PBXBuildFile; fileRef = D24657311E59D6C000D17801 /* madlib3_clothes.txt */; };
+		D24657391E59D6C000D17801 /* madlib4_dance.txt in Resources */ = {isa = PBXBuildFile; fileRef = D24657321E59D6C000D17801 /* madlib4_dance.txt */; };
+		D246573A1E59D6C000D17801 /* madlibs.png in Resources */ = {isa = PBXBuildFile; fileRef = D24657331E59D6C000D17801 /* madlibs.png */; };
+		D246573B1E59D6C000D17801 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24657341E59D6C000D17801 /* Story.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		D24657231E59D5DA00D17801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D24657261E59D5DA00D17801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D24657281E59D5DB00D17801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D246572E1E59D6C000D17801 /* madlib0_simple.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib0_simple.txt; path = ../../madlibs_ios/madlib0_simple.txt; sourceTree = "<group>"; };
+		D246572F1E59D6C000D17801 /* madlib1_tarzan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib1_tarzan.txt; path = ../../madlibs_ios/madlib1_tarzan.txt; sourceTree = "<group>"; };
+		D24657301E59D6C000D17801 /* madlib2_university.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib2_university.txt; path = ../../madlibs_ios/madlib2_university.txt; sourceTree = "<group>"; };
+		D24657311E59D6C000D17801 /* madlib3_clothes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib3_clothes.txt; path = ../../madlibs_ios/madlib3_clothes.txt; sourceTree = "<group>"; };
+		D24657321E59D6C000D17801 /* madlib4_dance.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib4_dance.txt; path = ../../madlibs_ios/madlib4_dance.txt; sourceTree = "<group>"; };
+		D24657331E59D6C000D17801 /* madlibs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = madlibs.png; path = ../../madlibs_ios/madlibs.png; sourceTree = "<group>"; };
+		D24657341E59D6C000D17801 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Story.swift; path = ../../madlibs_ios/Story.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +71,13 @@
 				D246571C1E59D5DA00D17801 /* AppDelegate.swift */,
 				D246571E1E59D5DA00D17801 /* ViewController.swift */,
 				D24657201E59D5DA00D17801 /* Main.storyboard */,
+				D246572E1E59D6C000D17801 /* madlib0_simple.txt */,
+				D246572F1E59D6C000D17801 /* madlib1_tarzan.txt */,
+				D24657301E59D6C000D17801 /* madlib2_university.txt */,
+				D24657311E59D6C000D17801 /* madlib3_clothes.txt */,
+				D24657321E59D6C000D17801 /* madlib4_dance.txt */,
+				D24657331E59D6C000D17801 /* madlibs.png */,
+				D24657341E59D6C000D17801 /* Story.swift */,
 				D24657231E59D5DA00D17801 /* Assets.xcassets */,
 				D24657251E59D5DA00D17801 /* LaunchScreen.storyboard */,
 				D24657281E59D5DB00D17801 /* Info.plist */,
@@ -124,7 +145,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D24657271E59D5DA00D17801 /* LaunchScreen.storyboard in Resources */,
+				D24657381E59D6C000D17801 /* madlib3_clothes.txt in Resources */,
+				D24657361E59D6C000D17801 /* madlib1_tarzan.txt in Resources */,
+				D246573A1E59D6C000D17801 /* madlibs.png in Resources */,
 				D24657241E59D5DA00D17801 /* Assets.xcassets in Resources */,
+				D24657351E59D6C000D17801 /* madlib0_simple.txt in Resources */,
+				D24657371E59D6C000D17801 /* madlib2_university.txt in Resources */,
+				D24657391E59D6C000D17801 /* madlib4_dance.txt in Resources */,
 				D24657221E59D5DA00D17801 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +165,7 @@
 			files = (
 				D246571F1E59D5DA00D17801 /* ViewController.swift in Sources */,
 				D246571D1E59D5DA00D17801 /* AppDelegate.swift in Sources */,
+				D246573B1E59D6C000D17801 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
