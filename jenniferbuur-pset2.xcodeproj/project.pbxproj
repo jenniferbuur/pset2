@@ -80,9 +80,6 @@
 		D246571B1E59D5DA00D17801 /* jenniferbuur-pset2 */ = {
 			isa = PBXGroup;
 			children = (
-				D24657481E5DB7C000D17801 /* screenshot1pset2.png */,
-				D24657491E5DB7C000D17801 /* screenshot2pset2.png */,
-				D246574A1E5DB7C000D17801 /* screenshot3pset2.png */,
 				D246571C1E59D5DA00D17801 /* AppDelegate.swift */,
 				D246571E1E59D5DA00D17801 /* ViewController.swift */,
 				D24657401E59F14400D17801 /* SecondViewController.swift */,
@@ -96,6 +93,9 @@
 				D24657321E59D6C000D17801 /* madlib4_dance.txt */,
 				D24657331E59D6C000D17801 /* madlibs.png */,
 				D24657341E59D6C000D17801 /* Story.swift */,
+				D24657481E5DB7C000D17801 /* screenshot1pset2.png */,
+				D24657491E5DB7C000D17801 /* screenshot2pset2.png */,
+				D246574A1E5DB7C000D17801 /* screenshot3pset2.png */,
 				D24657231E59D5DA00D17801 /* Assets.xcassets */,
 				D24657251E59D5DA00D17801 /* LaunchScreen.storyboard */,
 				D24657281E59D5DB00D17801 /* Info.plist */,
