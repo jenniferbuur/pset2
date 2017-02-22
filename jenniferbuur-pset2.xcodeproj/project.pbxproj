@@ -21,8 +21,10 @@
 		D246573B1E59D6C000D17801 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24657341E59D6C000D17801 /* Story.swift */; };
 		D246573D1E59DFD400D17801 /* m1eyn4ewbure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D246573C1E59DFD400D17801 /* m1eyn4ewbure.jpg */; };
 		D24657411E59F14400D17801 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24657401E59F14400D17801 /* SecondViewController.swift */; };
-		D24657451E5B2F8600D17801 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24657441E5B2F8600D17801 /* CustomCell.swift */; };
 		D24657471E5CA50500D17801 /* ThridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24657461E5CA50400D17801 /* ThridViewController.swift */; };
+		D246574B1E5DB7C000D17801 /* screenshot1pset2.png in Resources */ = {isa = PBXBuildFile; fileRef = D24657481E5DB7C000D17801 /* screenshot1pset2.png */; };
+		D246574C1E5DB7C000D17801 /* screenshot2pset2.png in Resources */ = {isa = PBXBuildFile; fileRef = D24657491E5DB7C000D17801 /* screenshot2pset2.png */; };
+		D246574D1E5DB7C000D17801 /* screenshot3pset2.png in Resources */ = {isa = PBXBuildFile; fileRef = D246574A1E5DB7C000D17801 /* screenshot3pset2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,8 +44,10 @@
 		D24657341E59D6C000D17801 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Story.swift; path = ../../madlibs_ios/Story.swift; sourceTree = "<group>"; };
 		D246573C1E59DFD400D17801 /* m1eyn4ewbure.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = m1eyn4ewbure.jpg; path = ../../m1eyn4ewbure.jpg; sourceTree = "<group>"; };
 		D24657401E59F14400D17801 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		D24657441E5B2F8600D17801 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		D24657461E5CA50400D17801 /* ThridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThridViewController.swift; sourceTree = "<group>"; };
+		D24657481E5DB7C000D17801 /* screenshot1pset2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot1pset2.png; path = ../screenshot1pset2.png; sourceTree = "<group>"; };
+		D24657491E5DB7C000D17801 /* screenshot2pset2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot2pset2.png; path = ../screenshot2pset2.png; sourceTree = "<group>"; };
+		D246574A1E5DB7C000D17801 /* screenshot3pset2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot3pset2.png; path = ../screenshot3pset2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,9 @@
 		D24657101E59D5DA00D17801 = {
 			isa = PBXGroup;
 			children = (
+				D24657481E5DB7C000D17801 /* screenshot1pset2.png */,
+				D24657491E5DB7C000D17801 /* screenshot2pset2.png */,
+				D246574A1E5DB7C000D17801 /* screenshot3pset2.png */,
 				D246571B1E59D5DA00D17801 /* jenniferbuur-pset2 */,
 				D246571A1E59D5DA00D17801 /* Products */,
 			);
@@ -92,7 +99,6 @@
 				D24657231E59D5DA00D17801 /* Assets.xcassets */,
 				D24657251E59D5DA00D17801 /* LaunchScreen.storyboard */,
 				D24657281E59D5DB00D17801 /* Info.plist */,
-				D24657441E5B2F8600D17801 /* CustomCell.swift */,
 			);
 			path = "jenniferbuur-pset2";
 			sourceTree = "<group>";
@@ -157,12 +163,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D24657271E59D5DA00D17801 /* LaunchScreen.storyboard in Resources */,
+				D246574B1E5DB7C000D17801 /* screenshot1pset2.png in Resources */,
 				D24657381E59D6C000D17801 /* madlib3_clothes.txt in Resources */,
 				D24657361E59D6C000D17801 /* madlib1_tarzan.txt in Resources */,
 				D246573A1E59D6C000D17801 /* madlibs.png in Resources */,
+				D246574C1E5DB7C000D17801 /* screenshot2pset2.png in Resources */,
 				D24657241E59D5DA00D17801 /* Assets.xcassets in Resources */,
 				D24657351E59D6C000D17801 /* madlib0_simple.txt in Resources */,
 				D24657371E59D6C000D17801 /* madlib2_university.txt in Resources */,
+				D246574D1E5DB7C000D17801 /* screenshot3pset2.png in Resources */,
 				D24657391E59D6C000D17801 /* madlib4_dance.txt in Resources */,
 				D24657221E59D5DA00D17801 /* Main.storyboard in Resources */,
 				D246573D1E59DFD400D17801 /* m1eyn4ewbure.jpg in Resources */,
@@ -178,7 +187,6 @@
 			files = (
 				D24657471E5CA50500D17801 /* ThridViewController.swift in Sources */,
 				D246571F1E59D5DA00D17801 /* ViewController.swift in Sources */,
-				D24657451E5B2F8600D17801 /* CustomCell.swift in Sources */,
 				D24657411E59F14400D17801 /* SecondViewController.swift in Sources */,
 				D246571D1E59D5DA00D17801 /* AppDelegate.swift in Sources */,
 				D246573B1E59D6C000D17801 /* Story.swift in Sources */,
