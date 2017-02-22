@@ -19,6 +19,10 @@
 		D24657391E59D6C000D17801 /* madlib4_dance.txt in Resources */ = {isa = PBXBuildFile; fileRef = D24657321E59D6C000D17801 /* madlib4_dance.txt */; };
 		D246573A1E59D6C000D17801 /* madlibs.png in Resources */ = {isa = PBXBuildFile; fileRef = D24657331E59D6C000D17801 /* madlibs.png */; };
 		D246573B1E59D6C000D17801 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24657341E59D6C000D17801 /* Story.swift */; };
+		D246573D1E59DFD400D17801 /* m1eyn4ewbure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D246573C1E59DFD400D17801 /* m1eyn4ewbure.jpg */; };
+		D24657411E59F14400D17801 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24657401E59F14400D17801 /* SecondViewController.swift */; };
+		D24657451E5B2F8600D17801 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24657441E5B2F8600D17801 /* CustomCell.swift */; };
+		D24657471E5CA50500D17801 /* ThridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24657461E5CA50400D17801 /* ThridViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		D24657321E59D6C000D17801 /* madlib4_dance.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib4_dance.txt; path = ../../madlibs_ios/madlib4_dance.txt; sourceTree = "<group>"; };
 		D24657331E59D6C000D17801 /* madlibs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = madlibs.png; path = ../../madlibs_ios/madlibs.png; sourceTree = "<group>"; };
 		D24657341E59D6C000D17801 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Story.swift; path = ../../madlibs_ios/Story.swift; sourceTree = "<group>"; };
+		D246573C1E59DFD400D17801 /* m1eyn4ewbure.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = m1eyn4ewbure.jpg; path = ../../m1eyn4ewbure.jpg; sourceTree = "<group>"; };
+		D24657401E59F14400D17801 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D24657441E5B2F8600D17801 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		D24657461E5CA50400D17801 /* ThridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThridViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +78,10 @@
 			children = (
 				D246571C1E59D5DA00D17801 /* AppDelegate.swift */,
 				D246571E1E59D5DA00D17801 /* ViewController.swift */,
+				D24657401E59F14400D17801 /* SecondViewController.swift */,
 				D24657201E59D5DA00D17801 /* Main.storyboard */,
+				D24657461E5CA50400D17801 /* ThridViewController.swift */,
+				D246573C1E59DFD400D17801 /* m1eyn4ewbure.jpg */,
 				D246572E1E59D6C000D17801 /* madlib0_simple.txt */,
 				D246572F1E59D6C000D17801 /* madlib1_tarzan.txt */,
 				D24657301E59D6C000D17801 /* madlib2_university.txt */,
@@ -81,6 +92,7 @@
 				D24657231E59D5DA00D17801 /* Assets.xcassets */,
 				D24657251E59D5DA00D17801 /* LaunchScreen.storyboard */,
 				D24657281E59D5DB00D17801 /* Info.plist */,
+				D24657441E5B2F8600D17801 /* CustomCell.swift */,
 			);
 			path = "jenniferbuur-pset2";
 			sourceTree = "<group>";
@@ -153,6 +165,7 @@
 				D24657371E59D6C000D17801 /* madlib2_university.txt in Resources */,
 				D24657391E59D6C000D17801 /* madlib4_dance.txt in Resources */,
 				D24657221E59D5DA00D17801 /* Main.storyboard in Resources */,
+				D246573D1E59DFD400D17801 /* m1eyn4ewbure.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +176,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24657471E5CA50500D17801 /* ThridViewController.swift in Sources */,
 				D246571F1E59D5DA00D17801 /* ViewController.swift in Sources */,
+				D24657451E5B2F8600D17801 /* CustomCell.swift in Sources */,
+				D24657411E59F14400D17801 /* SecondViewController.swift in Sources */,
 				D246571D1E59D5DA00D17801 /* AppDelegate.swift in Sources */,
 				D246573B1E59D6C000D17801 /* Story.swift in Sources */,
 			);
